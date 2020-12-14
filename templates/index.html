@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block nav %}
+  <div>
+    <ul id="nav">
+      <li><a class="active" href="{{ url_for('index') }}">Home</a></li>
+      <li><a href="{{ url_for('another') }}">Another Page ig</a></li>
+    </ul>
+  </div>
+{% endblock %}
+
+{% block content %}
+  <h2> {{message}} </h2>
+  <hr>
+  {% for key in names %}
+    {% if names[key] %}
+      <h5> {{key}} is Here! </h5>
+    {% else %}
+      <h5> {{key}} is Not Here ;-; </h5>
+    {% endif %}
+  {% endfor %}
+{% endblock %}

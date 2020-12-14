@@ -1,0 +1,139 @@
+/**
+Created by Tejas Shah
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto%20Slab:300,400,500,600,700);
+
+p {
+    font-size: 14px;
+    line-height: 22.4px;
+    color: black;
+}
+h1 {
+    font-size: 65px;
+    color: #2d3033;
+}
+h2 {
+    font-size: 40px;
+    color: #2d3033;
+}
+h3 {
+    font-size: 28px;
+    color: #2d3033;
+    font-weight: 300;
+}
+h4 {
+    font-size: 22px;
+    color: #2d3033;
+    font-weight: 400;
+}
+h5 {
+    font-size: 14px;
+    color: #2d3033;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+a {
+    color: royalblue;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    -moz-transition: background-color, color, 0.3s;
+    -o-transition: background-color, color, 0.3s;
+    -webkit-transition: background-color, color, 0.3s;
+    transition: background-color, color, 0.3s;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #6c7279;
+}
+.section {
+    padding: 100px 0;
+}
+.no-padding {
+    padding: 0;
+}
+.no-gutter [class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+.space
+{
+    margin-top:60px;
+}
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+#nav li a.active {
+    color: white;
+    background-color: royalblue;
+}
+.button {
+    background-color: royalblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: royalblue;
+   text-align: center;
+}
+
+.footer p {
+    color: white;
+}
